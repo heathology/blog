@@ -3,13 +3,27 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="utf-8">
+        <!--bootstrap -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
             integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <!-- font awesome icons --> 
         <script src="https://kit.fontawesome.com/96e2c5b3bf.js" crossorigin="anonymous"></script>
         <!-- MDB -->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.css" rel="stylesheet" />
+        <!-- custom CSS -->
         <link rel="stylesheet" href="css/style.css">
-        <title>Jesse's Blog</title>
+        <!-- favicon-->
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png" />
+        <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png" />
+        <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png" />
+        <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png" />
+        <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png" />
+        <title>Custom Bootstrap Website | heathology</title>
     </head>
     <body class="antialiased items-center justify-center w-screen h-screen">
         <!-- Header Section -->
@@ -19,7 +33,7 @@
                     <li class="nav-item"><a href="#home"><img class="logo" src="img/heathology-logo-2.png" alt="heathology logo"></a></li>
                     <li class="nav-item"><a href="#home">Home</a></li>
                     <li class="nav-item"><a href="#about">About</a></li>
-                    <li class="nav-item"><a href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a href="http://heathology.githubt.io">Portfolio</a></li>
                     <li class="nav-item"><a href="#contact">Contact</a></li>
                 <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -40,10 +54,7 @@
                 <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
-                <div class="carousel-item active" style="background-image:url(img/okc-downtown.jpg); background-repeat: no-repeat;
-            background-size: cover;
-            background-attachment: fixed; height: 100vh; /* sets hero height */
-            width: 100%; /* sets hero width */" aria-label="Downtown OKC Scissortail Park Image">
+                <div class="carousel-item active hero-img hero-img-1" aria-label="Downtown OKC Scissortail Park Image">
         
                     <div class="container">
                         <div class="carousel-caption text-start">
@@ -53,27 +64,21 @@
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item" style="background-image:url(img/oklahoma-city-1626593_1920.jpg); background-repeat: no-repeat;
-            background-size: cover;
-            background-attachment: fixed; height: 100vh; /* sets hero height */
-            width: 100%; /* sets hero width */" aria-label="Oklahoma City National Memorial Image">
+                <div class="carousel-item hero-img hero-img-2" aria-label="Oklahoma City National Memorial Image">
                     
         
                     <div class="container">
                         <div class="carousel-caption">
-                            <h1>Look to the Future, Learn from the Past</h1>
+                            <h1>Look to the Future, <br>Learn from the Past</h1>
                             <p>The Oklahoma City National Memorial honors the victims, survivors, rescuers, and all who were forever changed on April 19, 1995.</p>
                             <p><a class="btn btn-lg btn-primary" href="https://memorialmuseum.com/">Learn more</a></p>
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item" style="background-image:url(https://heathmediadesigns.com/custom-bootstrap/img/chisholm-creek.jpg); background-repeat: no-repeat;
-                            background-size: cover;
-                            background-attachment: fixed; height: 100vh; /* sets hero height */
-                            width: 100%; /* sets hero width */" aria-label="Oklahoma City National Memorial Image">
+                <div class="carousel-item hero-img hero-img-3" aria-label="Oklahoma City National Memorial Image">
                     <div class="container">
                         <div class="carousel-caption text-end">
-                            <h1>One more for good measure.</h1>
+                            <h1>One more <br>for good measure.</h1>
                             <p>Some representative placeholder content for the third slide of this carousel.</p>
                             <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
                         </div>
@@ -100,40 +105,25 @@
             <!-- Three columns of text below the carousel -->
             <div class="row">
                 <div class="col-lg-4">
-                    <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
-                        role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777"
-                            dy=".3em">140x140</text>
-                    </svg>
+                    <a href="#" alt="okc attractions link"><img class="circle-image" src="http://heathmediadesigns.com/custom-bootstrap/img/sky-dance-bridge-okc.jpg" alt="sky dance bridge okc">
         
-                    <h2 class="fw-normal">Heading</h2>
+                    <h2 class="fw-normal">OKC Attractions</h2></a>
                     <p>Some representative placeholder content for the three columns of text below the carousel. This is the
                         first column.</p>
                     <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-4">
-                    <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
-                        role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777"
-                            dy=".3em">140x140</text>
-                    </svg>
+                    <img class="circle-image" src="http://heathmediadesigns.com/custom-bootstrap/img/paycom-center-thunder.jpg" alt="paycom center thunder okc">
         
-                    <h2 class="fw-normal">Heading</h2>
+                    <a href="#" alt="okc events link"><h2 class="fw-normal">OKC Events</h2></a>
                     <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second
                         column.</p>
                     <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-4">
-                    <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
-                        role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777"
-                            dy=".3em">140x140</text>
-                    </svg>
+                    <a href="#" alt="okc night life link"><img class="circle-image" src="http://heathmediadesigns.com/custom-bootstrap/img/bricktown-nightlife.jpg" alt="okc bricktown canal">
         
-                    <h2 class="fw-normal">Heading</h2>
+                    <h2 class="fw-normal">OKC Night Life</h2></a>
                     <p>And lastly this, the third column of representative placeholder content.</p>
                     <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
                 </div><!-- /.col-lg-4 -->
@@ -159,19 +149,12 @@
         
             <div class="row featurette">
                 <div class="col-md-7">
-                    <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span class="text-muted">It’ll blow
-                            your mind.</span></h2>
+                    <h2 class="featurette-heading fw-normal lh-1">Midtown. <span class="text-muted">Come together.</span></h2>
                     <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose
                         here.</p>
                 </div>
                 <div class="col-md-5">
-                    <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-                        height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
-                        preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa"
-                            dy=".3em">500x500</text>
-                    </svg>
+                    <img class="featurette-image-1" src="http://heathmediadesigns.com/custom-bootstrap/img/midtown-okc.jpg" alt="midtown okc">
         
                 </div>
             </div>
@@ -180,19 +163,12 @@
         
             <div class="row featurette">
                 <div class="col-md-7 order-md-2">
-                    <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-muted">See for
-                            yourself.</span></h2>
+                    <h2 class="featurette-heading fw-normal lh-1">Automobile Alley.<span class="text-muted">Where the neon lights are bright.</span></h2>
                     <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this
                         layout would work with some actual real-world content in place.</p>
                 </div>
                 <div class="col-md-5 order-md-1">
-                    <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-                        height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
-                        preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa"
-                            dy=".3em">500x500</text>
-                    </svg>
+                <img class="featurette-image-1" src="http://heathmediadesigns.com/custom-bootstrap/img/Automobile-alley-lamp-buick.jpg" alt="automobile alley okc">
         
                 </div>
             </div>
@@ -201,20 +177,15 @@
         
             <div class="row featurette">
                 <div class="col-md-7">
-                    <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span
-                            class="text-muted">Checkmate.</span></h2>
+                    <h2 class="featurette-heading fw-normal lh-1">Unique Art. <span
+                            class="text-muted">Check.</span></h2>
                     <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really
                         intended to be actually read, simply here to give you a better view of what this would look like with
                         some actual content. Your content.</p>
                 </div>
                 <div class="col-md-5">
-                    <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-                        height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
-                        preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa"
-                            dy=".3em">500x500</text>
-                    </svg>
+                    <img class="featurette-image-1" src="http://heathmediadesigns.com/custom-bootstrap/img/paseo.jpg"
+                        alt="paseo district okc">
         
                 </div>
             </div>
